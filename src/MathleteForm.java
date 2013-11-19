@@ -710,7 +710,7 @@ public class MathleteForm extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel CalculateLabel;
-    private javax.swing.JTextField CalculatorInputTextField;
+    static javax.swing.JTextField CalculatorInputTextField;
     private javax.swing.JPanel CalculatorPanel;
     private javax.swing.JTable CalculatorTable;
     private javax.swing.JRadioButton CelciusRadioButton;

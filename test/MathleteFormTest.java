@@ -48,14 +48,16 @@ public class MathleteFormTest {
 		boolean result = mf.IsNumber(c);
 		assertEquals(true, result);
 	}
-	/*@Test
+	@Test
 	public void calcTester()
 	{
 		MathleteForm mf=new MathleteForm();
 		MathleteForm.CalculatorInputTextField.setText("5+6");
-		mf.CalculatorInputTextFieldActionPerformed(new ActionEvent(mf, 2, "a+b"));
+		
+		mf.CalculatorInputTextFieldActionPerformed(new ActionEvent(mf, 2, "5+6"));
 		
 	}
+	/*
 	@Test
 	public void calcTester1()
 	{
